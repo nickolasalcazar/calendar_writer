@@ -1,16 +1,16 @@
 from datetime import date, timedelta
 
-FILEPATH = "/Users/nickolasalcazar/Desktop/calendar2022.txt";
+OUTPUT_PATH = "/Users/nickolasalcazar/Desktop/calendar2023.txt";
 
-file = open(FILEPATH, "a")
+file = open(OUTPUT_PATH, "a")
 
-start_day = 6
-start_month = 6
-start_year = 2022
+start_day = 1
+start_month = 1
+start_year = 2023
 
 end_day = 31
 end_month = 12
-end_year = 2022
+end_year = 2023
 
 start_date = date(start_year, start_month, start_day)
 end_date = date(end_year, end_month, end_day)
